@@ -1,0 +1,267 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  .nav__deliver {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #424242;
+    flex: none;
+    margin-right: 35px;
+    order: 0;
+    flex-grow: 0;
+  }
+  .nav__deliver::after {
+    content: "";
+    background-image: url(../Images/iconka/lokotsiya.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center bottom;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    margin: 0 9px 0 12px;
+    width: 14px;
+    height: 25px;
+  }
+  .nav__span {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #424242;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 4px;
+  }
+  .nav__location {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+    text-align: center;
+    color: #424242;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+}
+.header__right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .header__search {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #424242;
+    flex: none;
+    flex-grow: 0;
+  }
+  .header__search::before {
+    content: "";
+    background-image: url(../Images/iconka/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: bottom bottom;
+    display: inline-block;
+    margin-right: 8px;
+    width: 18px;
+    height: 18px;
+  }
+}
+.btn {
+  border: none;
+  background: #ffffff;
+  box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26),
+    0px 20px 40px rgba(255, 174, 0, 0.29);
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  cursor: pointer;
+  margin-left: 30px;
+  padding: 14px 24px;
+  flex-grow: 0;
+  cursor: pointer;
+  .header__btn-login {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    background: linear-gradient(92.84deg, #ffb800 -47.72%, #ff8a00 136.81%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .header__btn-login::before {
+    content: "";
+    background-image: url(../Images/iconka/user.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    display: inline-block;
+    margin-right: 8px;
+    width: 16px;
+    height: 18px;
+  }
+}
+.bighero {
+  background-color: #fbce2c;
+  width: 1540px;
+  height: 661px;
+  background-image: url(../Images/lagmon.png);
+  background-repeat: no-repeat;
+  background-position: 750px 150px;
+  margin-bottom: 50px;
+}
+.hero__title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 100%;
+  color: #ffffff;
+  text-shadow: 0px 14px 15px rgba(255, 174, 0, 0.01),
+    0px 27px 82px rgba(255, 174, 0, 0.28);
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  padding-top: 132px;
+}
+.hero__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 120%;
+  color: #504f4f;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin: 15px 0 32px 0;
+}
+.hero__menu {
+  background: #ffffff;
+  width: 586px;
+  padding: 24px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom: 1px solid #757575;
+  .hero__Delivery {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #f17228;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-right: 56px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    border: 1px solid #fef1ea;
+    background-color: #fef1ea;
+  }
+  .hero__Delivery::before {
+    content: "";
+    background-image: url(../Images/iconka/moto.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    display: inline-block;
+    margin-right: 10px;
+    width: 23px;
+    height: 18px;
+  }
+  .hero__Pickup {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    color: #757575;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+  .hero__Pickup::before {
+    content: "";
+    background-image: url(../Images/iconka/bag.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    display: inline-block;
+    margin-right: 10px;
+    width: 16px;
+    height: 18px;
+  }
+}
+.hero__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  width: 586px;
+  padding: 24px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  .hero__input {
+    display: flex;
+    align-items: center;
+    position: relative;
+    .hero__input-img {
+      position: absolute;
+      left: 10px;
+    }
+    .hero__block-address {
+      width: 350px;
+      border: none;
+      padding: 12px;
+      padding-left: 40px;
+      background: #f5f5f5;
+      border-radius: 8px;
+      outline: none;
+    }
+  }
+  .hero__block-btn {
+    background: linear-gradient(95.71deg, #ff7a7a -39.64%, #f75900 135.31%);
+    border-radius: 8px;
+    box-shadow: none;
+  }
+  .hero__block-Food {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+    text-align: center;
+    color: #ffffff;
+  }
+  .hero__block-Food::before {
+    content: "";
+    background-image: url(../Images/iconka/lupa.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+    display: inline-block;
+    margin-right: 10px;
+    width: 14px;
+    height: 14px;
+  }
+}
+
